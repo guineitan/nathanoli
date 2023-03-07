@@ -1,0 +1,41 @@
+atividade 1 
+real fabrica,maquina,pecas,manutencao,num1,num2,por=0.10
+		escreva("informe o numero de pecas da maquina ")
+		leia(num1)
+		escreva("informe o numero de pecas defeituosas")
+		leia(num2)
+
+		 se(num1>0.10)  {
+		    escreva("precisa de manutencao")
+		 }
+		 senao{
+		 	escreva("nao precisa de manutencao")
+		 }
+atividade 2
+real caixa,saque,saldo=1000
+		escreva("informe o valor do saque")
+		leia(saque)
+
+		se(saque>saldo){
+			escreva("saque nao autorizado :" )
+			
+		}
+		senao{
+			escreva("saque autorizado :" )
+atividade 3
+inteiro num1,num2,result,soma
+		escreva("informe o valor de num1")
+		leia(num1)
+		escreva("informe o valor de num2")
+		leia(num2)
+		soma(num1+num2)
+		result=(soma)
+		
+		 se(result>10){
+		    escreva("valor > que 10 :")
+		 }
+	      senao{
+	      	escreva("valor < que 10:")
+	      }
+	}
+atividade 4			

@@ -1,0 +1,40 @@
+ atividade 1
+ // jogadores com a idade superior a 25 anos
+		// leia a idade dos jogadores 
+	
+	funcao inicio()
+	{
+		inteiro idade
+		escreva("informe a idade: " )
+		leia (idade)
+
+		se(idade > 25 ) {
+
+			  escreva(" jogador contratado")
+		}
+
+		senao{
+
+			  escreva("jogador nao tem potencial") 
+		}
+	}
+   
+ativiadade 2 
+real valor1,valor2
+	escreva("informe o valor do primeiro")
+	leia(valor1)
+	
+	escreva("informe o valor do segundo")
+	leia(valor2)
+
+	     se(valor1>valor2) {
+
+	     	escreva(" o valor1 e > que o valor2")
+	     }
+
+	     senao {
+
+	     	escreva(" o valor2 e > que o valor1")
+	     }
+	     }
+	

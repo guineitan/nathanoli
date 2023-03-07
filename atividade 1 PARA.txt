@@ -1,0 +1,7 @@
+inteiro num , resultado
+		escreva("digite um numero\n")
+		leia(num)
+
+		para(inteiro i=100; i >= 0; i--){
+			escreva(num,"-", i ,"=",resultado=num-i, "\n")
+		}

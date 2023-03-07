@@ -1,0 +1,33 @@
+real resultado , soma, pratos1,pagamento , soma2,pratos2
+		inteiro num1,num2,opcao , valor=19.90 , valor2=79.90
+		escreva("Restaurante\n")
+		escreva("1) kg livre:19,90 \n")
+		escreva("2) kg pesado:79,90\n")
+		escreva("informe a opcao que deseja")
+		      leia(opcao)
+
+		limpa()
+
+
+		 escolha (opcao){
+
+		     caso 1:
+		     escreva("informe quantos pratos deseja")
+		     leia(pratos1)
+		     soma=pratos1*valor
+		     escreva("valor total é:",soma,"\n")
+		     escreva("informe o pagamento")
+		     leia(pagamento)
+		     soma2=pagamento-soma
+		     escreva("seu troco é:",soma2)
+		     pare
+
+		     caso 2:
+		     escreva("informe quantos pratos deseja")
+		     leia(pratos2)
+		     soma2=pratos2*valor2
+		     escreva("valor total é:",soma2,"\n")
+		     escreva("informe o pagamento")
+		     leia(pagamento)
+		     soma2=pagamento-soma2
+		     escreva("seu troco é:",soma2)

@@ -1,0 +1,61 @@
+atividade 1
+real soma,sub,mult,divi,num1,num2 
+		escreva("digite o primeiro numero ")
+		leia(num1)
+		escreva(" digite o segundo numero")
+		leia(num2)
+		soma= num1+num2
+		sub= num1-num2
+		mult= num1*num2
+		divi= num1/num2
+		
+		escreva ( " \nA soma dos numeros a+b :"soma)
+		escreva '(' " \nA subtração dos numeros a-b :"sub)
+		escreva '(' " \nA multiplicação dos numeros a*b :"mult
+		escreva '(' " \nA divisão dos numeros a/b :"divi')'
+
+atividade 2
+cadeia nome
+		inteiro ano_atual , nascimento , idade , soma
+		escreva(" digite a data de nascimento :")
+		leia(nascimento)
+		escreva("digite o nome :")
+		leia(nome)
+		escreva("digite o ano_atual:")
+		leia(ano_atual)
+		soma=ano_atual-nascimento
+		escreva("a idade é" +soma)
+atividade 3
+real consumo ,distancia ,soma 
+		escreva("informe o consumo:")
+		leia(consumo)
+		escreva("informe a distancia:")
+		leia(distancia)
+		soma=consumo-distancia
+		escreva("\nA distancia percorrida em KM é : " + soma )
+		escreva("\nO consumo percorrido é : L" + soma/10)
+		
+atividade 4 
+cadeia nome
+		inteiro soma,vendas,result,salario=1200
+
+		escreva("informe o nome do vendedor:")
+		leia (nome)
+		escreva("informe o total de vendas efetuada:")
+		leia (vendas)
+		soma=vendas*0.15
+		result=soma+salario
+		escreva("\nO valor da comissão por vendas é : "+soma)
+		escreva("\nO valor total do salario"+result)
+atividade 5
+real reais , dolar , conversao 
+		escreva("informe o valor em reais:")
+		leia(reais)
+		escreva("informe o valor em dolar:")
+		leia(dolar)
+		conversao=dolar-reais
+		escreva("\nO valor do dolar é ,"dolar-reais)
+		escreva
+
+
+		

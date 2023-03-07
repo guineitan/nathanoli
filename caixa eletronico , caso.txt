@@ -1,0 +1,36 @@
+  real  deposito, valor=1.000,conta
+	       inteiro opcao,soma,saque,soma2
+		escreva("caixa eletronico")
+		escreva("1) saque \n")
+		escreva("2) deposito \n")
+		escreva("informe a opcao que deseja")
+		      leia(opcao)
+
+
+		escolha (opcao){
+		caso 1:
+		
+		escreva(" informe o valor ")
+		leia(valor)
+
+		escreva (" informe o valor que deseja sacar")
+		leia(saque)
+
+		      soma=saque-valor
+		
+		escreva(" o valor do saque é:"+soma)
+
+		caso 2:
+		escreva("informe o valor do deposito")
+		leia (deposito)
+
+		escreva("informe a conta")
+		leia(conta)
+
+		soma2=deposito+valor
+
+		escreva("o valor do deposito e:"+soma2)
+		
+
+
+		

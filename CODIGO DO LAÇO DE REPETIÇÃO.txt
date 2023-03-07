@@ -1,0 +1,17 @@
+o algoritmo começa a contar do zero , então, o I  começa do 1 pois voce precisa declarar para que  nao possa haver mais casas
+i++(contador)
+cont(contador)
+
+inteiro num,resultado
+escreva("digite um numero\n")
+leia(num)
+
+para (inteiro i =1;  i <=10; i++){
+escreva(num, "*" , i ,"=",resultado= num * i,"\n")
+}
+
+i =1;  i <=10(ele está fazendo uma comparação)
+
+tudo que estiver dentro da chave do PARA 
+escreva(num, "*" , i ,"=",resultado= num * i,"\n")
+}ele ira repetir  o tanto de vezes que o usuario pediu 
